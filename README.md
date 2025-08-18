@@ -11,8 +11,6 @@ Compile your first custom recovery via Github Actions - with ldcheck setup. This
  * Device Name (Your device codename)
  * Device Path (device/brand/codename)
  * Build Target (boot, reecovery, vendorboot)
- * LDCHECK (path to your target binary file, ie. `system/bin/qseecomd`)
-   - If you are building manually/locally and you want to use ldcheck for checking dependencies, visit [THIS](https://github.com/TeamWin/android_device_qcom_twrp-common/tree/android-11#using-ldcheck-to-find-dependencies) this for guide.
   
 ## Notes
    - Initially, this workflow only supports up to 4 branches for manifest 11 and 12.1, if you build below that, add it yourself.
